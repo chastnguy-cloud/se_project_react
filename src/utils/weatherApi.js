@@ -1,6 +1,6 @@
 import { APIkey, coordinates } from "./constants";
 
-export function getWeather({ latitude, longitude }, APIkey) {
+export function getWeather({ latitude, longitude }, apiKey) {
   return fetch(
     `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${APIkey}`,
   ).then((res) => {

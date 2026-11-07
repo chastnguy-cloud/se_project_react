@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { defaultClothingItems } from "../../utils/clothingItems";
 import { getWeather, filterWeatherData } from "../../utils/weatherApi";
-import { coordinates, APIkey } from "../../utils/constants";
+import { coordinates, apiKey } from "../../utils/constants";
 import "./App.css";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
@@ -24,7 +24,7 @@ function App() {
   const [newItemWeather, setNewItemWeather] = useState("");
 
   useEffect(() => {
-    getWeather(coordinates, APIkey)
+    getWeather(coordinates, apiKey)
       .then((data) => {
         const filteredData = filterWeatherData(data);
         setWeatherData(filteredData);
