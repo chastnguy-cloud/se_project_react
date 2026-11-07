@@ -1,0 +1,33 @@
+.card {
+  width: 323px;
+  height: 326px;
+  background-color: #e9e9e9;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  list-style: none;
+}
+
+.card__name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  align-self: center;
+  padding: 2px 12px;
+  margin: 0 0 8px;
+}
+
+.card__image {
+  width: 226px;
+  height: 226px;
+  flex: 1;
+  object-fit: contain;
+  align-self: center;
+  margin:;
+  /* mix-blend-mode: multiply; */
+}

@@ -1,0 +1,23 @@
+.weather-card {
+  background-color: #00a3ff;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  margin-top: 20px;
+}
+
+.weather-card__temp {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.weather-card__image {
+  width: 200px;
+  margin-left: auto;
+}

@@ -1,0 +1,6 @@
+.app {
+  background-color: #fff;
+  min-height: 100vh;
+  padding: 28px 40px 0;
+  box-sizing: border-box;
+}
